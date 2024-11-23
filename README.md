@@ -99,7 +99,7 @@ curl http://localhost:3001/get-auto-responses
 Feel free to open issues or submit pull requests if you have suggestions or enhancements.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
