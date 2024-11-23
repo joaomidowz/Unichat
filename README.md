@@ -1,7 +1,5 @@
 # UNICHAT Omnichannel
 
----
-
 ## Overview
 This project combines a WhatsApp bot with a Streamlit dashboard. The WhatsApp bot uses predefined auto-responses stored in an SQLite database, while the Streamlit dashboard provides a user interface for managing and visualizing these auto-responses.
 
@@ -9,12 +7,12 @@ This project combines a WhatsApp bot with a Streamlit dashboard. The WhatsApp bo
 - **WhatsApp Integration**: A bot that uses *whatsapp-web.js* to connect to WhatsApp and automatically respond to messages based on triggers.
 - **SQLite Database**: Auto-responses are stored and managed using an SQLite database.
 - **Streamlit Dashboard**: A web interface for managing auto-responses and visualizing data.
-
+  - The Dashboard can be improved to have a better interface that displays more data and statistics with an enhanced user experience.
+  
 ---
 
-## Installation
-
-### Prerequisites
+# Installation
+## Prerequisites
 Ensure you have [Node.js](https://nodejs.org/) and [Python](https://www.python.org/) installed.
 
 ### Python Dependencies
@@ -26,7 +24,7 @@ pip install email
 ```
 
 ### Optional Python Packages
-These are additional packages that could be useful:
+These are additional packages that could be useful **(they are not implemented yet)** :
 ```bash
 pip install streamlit-modal  # Not implemented
 pip install streamlit-extras  # Not yet used but has useful widgets
@@ -35,18 +33,20 @@ pip install streamlit-extras  # Not yet used but has useful widgets
 ### Node.js Dependencies
 Install required Node.js packages:
 ```bash
-npm install express whatsapp-web.js qrcode-terminal
+npm install express
+npm install whatsapp-web.js
+npm install qrcode-terminal
 npm install qrcode
 npm install sqlite3
 ```
 
 ---
 
-### GMAIL App Password
+## GMAIL App Password
 You have to enable IMAP on your gmail configuration and generate an APP Password to use
 
 
-### WhatsApp App Password
+## WhatsApp Login
 Configure your Whatsapp and Scan the QRCODE
 
 ---
@@ -90,15 +90,21 @@ curl http://localhost:3001/get-auto-responses
 
 ---
 
-## Authors
+# Authors
 - **Gustavo Lopes Nomelini**
 - **João Gabriel Custódio**
 - **Eduardo Lucas Santos Ferreira**
 
-## Contributing
-Feel free to open issues or submit pull requests if you have suggestions or enhancements.
+# Acknowledgments
+This project uses the [whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js) library for integrating WhatsApp functionalities. 
 
-## License
+A huge thanks to the developers and contributors of this library for providing an easy-to-use API and making it available for open use. Your work is greatly appreciated!
+
+
+# Contributing
+Feel free to open issues or submit pull requests if you have suggestions or enhancements !
+
+# LICENSE
 This project is licensed under the [MIT License](LICENSE).
 
 ---
