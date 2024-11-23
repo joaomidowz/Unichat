@@ -1,5 +1,16 @@
 # UNICHAT Omnichannel
 
+
+
+## Collaborators
+
+Thanks to the amazing contributors who helped build this project:
+
+| ![Gustavo Nomelini](https://github.com/gustavo-nomelini.png?size=50) | ![João Gabriel Custódio](https://github.com/joaomidowz.png?size=50) | ![Lucas Eduardo Santos Ferreira](https://github.com/EduLucas23.png?size=50) |
+|:--------------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:|
+| [Gustavo Lopes Nomelini](https://github.com/gustavo-nomelini)             | [João Gabriel Custódio](https://github.com/joaomidowz)             | [Lucas Eduardo Santos Ferreira](https://github.com/EduLucas23)             |
+
+
 ## Overview
 This project combines a WhatsApp bot with a Streamlit dashboard. The WhatsApp bot uses predefined auto-responses stored in an SQLite database, while the Streamlit dashboard provides a user interface for managing and visualizing these auto-responses.
 
@@ -89,11 +100,6 @@ curl http://localhost:3001/get-auto-responses
 
 
 ---
-
-# Authors
-- **Gustavo Lopes Nomelini**
-- **João Gabriel Custódio**
-- **Eduardo Lucas Santos Ferreira**
 
 # Acknowledgments
 This project uses the [whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js) library for integrating WhatsApp functionalities. 
