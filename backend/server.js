@@ -1,3 +1,4 @@
+// server.js using whatsapweb js api
 const express = require("express");
 const { Client } = require("whatsapp-web.js");
 const sqlite3 = require("sqlite3").verbose();
